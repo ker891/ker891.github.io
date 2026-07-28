@@ -14,19 +14,37 @@ footer{
     color: #000000;
     font-family: 'Times New Roman', Times, serif;
 }
-figure{
+.tutorialLink{
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 13px;   
     border-radius: 500px;
     border: 20px solid #2A6041;
-    background: linear-gradient(to bottom right, #dd4345, #5E0B15);
-}
+    background: linear-gradient(to bottom right, #f14346, #5E0B15);
+}   
 figcaption{
     color: #8A8D70;
     font-weight: bolder;
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
 .navbar {
     color: #8A8D70;
     padding: 10px;
@@ -41,4 +59,7 @@ figcaption{
 }
 .navbar a:hover {
     color: #a01323;
+}
+.regIMG{
+    color:#5E0B15;
 }
