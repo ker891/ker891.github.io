@@ -2,17 +2,43 @@ body {
     background-color: #8A8D96;
     color: #5E0B15;
     font-family: Helvetica
+    
+}
+h1,
+h2 {
+        display: flex;
+    justify-content: center;
+    align-items: center;
 }
 footer{
     color: #000000;
     font-family: 'Times New Roman', Times, serif;
 }
 figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 13px;   
-    padding-left: 350px;
-    color: #8A8D70;
-    padding-top: 10px;
     border-radius: 500px;
-    background-color: #9B1D20;
     border: 20px solid #2A6041;
+    background: linear-gradient(to bottom right, #dd4345, #5E0B15);
+}
+figcaption{
+    color: #8A8D70;
+    font-weight: bolder;
+}
+.navbar {
+    color: #8A8D70;
+    padding: 10px;
+    font-size: 18px;
+}
+.navbar a {
+    font-family: Helvetica;
+    color: #000000;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: bolder;
+}
+.navbar a:hover {
+    color: #a01323;
 }
