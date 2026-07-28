@@ -1,0 +1,18 @@
+body {
+    background-color: #8A8D96;
+    color: #5E0B15;
+    font-family: Helvetica
+}
+footer{
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+}
+figure{
+    font-size: 13px;   
+    padding-left: 350px;
+    color: #8A8D70;
+    padding-top: 10px;
+    border-radius: 500px;
+    background-color: #9B1D20;
+    border: 20px solid #2A6041;
+}
